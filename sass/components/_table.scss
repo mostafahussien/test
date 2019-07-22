@@ -1,0 +1,101 @@
+.table-content {
+
+    input,
+    input.select-dropdown {
+        @media screen and (max-width: 992px) {
+            max-width: 120px;
+        }
+
+        @media screen and (max-width: 600px) {
+            max-width: 100%;
+        }
+    }
+
+    .content-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+        @media screen and (max-width: 600px) {
+            flex-direction: column;
+        }
+
+        .title {
+            @media screen and (max-width: 600px) {
+                width: 100%;
+            }
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            color: $dark-grey;
+
+            @media screen and (max-width: 992px) {
+                font-size: 1rem;
+            }
+        }
+
+        .options {
+            display: flex;
+            align-items: center;
+
+            @media screen and (max-width: 600px) {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .filters {
+                @media screen and (max-width: 600px) {
+                    width: 100%;
+                    margin-bottom: 20px;
+
+                }
+            }
+
+            a {
+                margin: 0 10px;
+                color: $black;
+                font-family: $font-bold;
+                text-decoration: underline;
+
+                @media screen and (max-width: 992px) {
+                    display: none;
+                }
+            }
+
+            .date-icon {
+                top: 19px;
+                left: 8px;
+                max-width: 10px;
+            }
+        }
+
+        .switch label input[type="checkbox"]:checked+.lever::before,
+        .switch label input[type="checkbox"]:checked+.lever::after {
+            left: 18px;
+            right: auto;
+        }
+
+        .switch label .lever::before,
+        .switch label .lever::after {
+            left: 0;
+            right: auto;
+        }
+
+        .switch label input[type=checkbox]:checked+.lever {
+            background-color: #f69151;
+        }
+
+        .switch label input[type=checkbox]:checked+.lever:after {
+            background-color: $white;
+            border: 1px solid rgba(0, 0, 0, 0.4);
+        }
+
+        .switch label .lever {
+            background-color: $dark-gery-2;
+        }
+    }
+}

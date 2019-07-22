@@ -1,0 +1,155 @@
+.filters {
+    .main-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        @media screen and (max-width: 600px) {
+            flex-direction: column;
+        }
+    }
+
+    .row-options {
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+
+        @media screen and (max-width: 600px) {
+            margin-bottom: 20px;
+        }
+
+        .drop {
+            @media screen and (max-width: 600px) {
+                width: 100%;
+            }
+        }
+
+        .date {
+            @media screen and (max-width: 600px) {
+                width: 100%;
+            }
+        }
+
+        .search {
+            @media screen and (max-width: 600px) {
+                width: 100%;
+            }
+
+            input {
+                min-width: 240px;
+
+                @media screen and (max-width: 992px) {
+                    min-width: 100px;
+                }
+            }
+        }
+
+
+    }
+
+    .save {
+        display: flex;
+
+        @media screen and (max-width: 600px) {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .btn-large {
+            @media screen and (max-width: 600px) {
+                width: 100%;
+            }
+        }
+    }
+
+    .input,
+    input.select-dropdown {
+        background-color: $white !important;
+        border: 1px solid rgba(0, 0, 0, 0.2) !important;
+        border-radius: 6px !important;
+        padding-right: 20px !important;
+        width: calc(100% - 22px) !important;
+        font-family: $font-bold;
+        color: $dark-grey;
+        margin-bottom: 0 !important;
+        min-width: 120px;
+    }
+
+    h6 {
+        color: $text-grey;
+        padding-right: 10px;
+    }
+
+    ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: $dark-grey;
+        font-family: $font-bold;
+    }
+
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: $dark-grey;
+        font-family: $font-bold;
+    }
+
+    :-ms-input-placeholder {
+        /* IE 10+ */
+        color: $dark-grey;
+        font-family: $font-bold;
+    }
+
+    :-moz-placeholder {
+        /* Firefox 18- */
+        color: $dark-grey;
+        font-family: $font-bold;
+    }
+
+    .select-wrapper:after {
+        content: ' ';
+        width: 10px;
+        height: 10px;
+        background-image: url('../assets/ic_down_arrow.svg');
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 19px;
+        left: 8px;
+        z-index: 1;
+    }
+
+    .date {
+        position: relative;
+
+        .date-icon {
+            position: absolute;
+            top: 45px;
+            left: 8px;
+            max-width: 23px;
+        }
+
+        input {
+            min-width: 120px;
+        }
+    }
+
+    .btn-large {
+        height: 47px;
+        line-height: 47px;
+        background-color: $green;
+        box-shadow: none;
+        border-radius: 6px;
+    }
+
+    .close {
+        height: 47px;
+        width: 47px;
+        border: 1px solid $text-grey;
+        display: inline-flex;
+        vertical-align: middle;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 4px;
+
+    }
+}

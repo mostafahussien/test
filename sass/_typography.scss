@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'DubaiW23-Bold';
+    src: url('../fonts/DubaiW23-Bold.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/DubaiW23-Bold.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/DubaiW23-Bold.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/DubaiW23-Bold.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('../fonts/DubaiW23-Bold.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'DubaiW23-Regular';
+    src: url('../fonts/DubaiW23-Bold.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/DubaiW23-Regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/DubaiW23-Regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/DubaiW23-Regular.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('../fonts/DubaiW23-Regular.ttf') format('truetype'),
+}
+
+body {
+    font-family: 'DubaiW23-Regular';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'DubaiW23-Bold';
+}
+
+
+h1 {
+    font-size: 2.6rem;
+    margin: 0;
+    color: $dark-grey;
+}
+
+h2 {
+    font-size: 2rem;
+}

@@ -1,0 +1,47 @@
+.sidenav {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-shadow: none;
+
+    .logo {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .user {
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        position: relative;
+
+        i {
+            position: absolute;
+            left: 0;
+        }
+
+        img {
+            margin-left: 10px;
+        }
+    }
+
+    li {
+        a {
+            display: flex;
+            font-size: 16px;
+            color: $text-grey;
+
+            img {
+                margin-left: 10px;
+            }
+        }
+
+        a:hover,
+        .active {
+            background-color: $primary-blue;
+            color: $white;
+            border-radius: 4px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        }
+    }
+}

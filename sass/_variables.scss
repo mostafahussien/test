@@ -1,0 +1,40 @@
+$primary-blue: #00a5d9;
+$text-grey: #525d6b;
+$dark-grey: #585858;
+$dark-gery-2: #848484;
+$white: #ffffff;
+$black: #000000;
+$grey: #eeeeee;
+$green: #6ec30b;
+$red: #ef5761;
+
+$font-bold: 'DubaiW23-Bold';
+
+.text-primary {
+    color: $primary-blue !important;
+}
+
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.inactive {
+    opacity: .5;
+
+    .filters {
+        pointer-events: none;
+    }
+}

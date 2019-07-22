@@ -1,0 +1,31 @@
+main {
+    background-color: $grey;
+    min-height: 100vh;
+    position: relative;
+    padding: 20px 30px;
+    padding-right: 330px;
+    padding-bottom: 0;
+
+    @media screen and (max-width: 992px) {
+        padding-right: 30px;
+        padding-top: 100px;
+    }
+
+    @media screen and (max-width: 600px) {
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+
+    .top-strap {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        @media screen and (max-width: 992px) {
+            top: 78px;
+            position: fixed;
+            z-index: 100;
+        }
+    }
+}

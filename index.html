@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+        <li class="logo">
+            <img src="assets/logo.png" alt="logo">
+        </li>
+
+        <li class="user">
+            <img class="circle" src="assets/ic_avatar.png">
+            <span class="name">الاسم</span>
+            <i class="material-icons">
+                arrow_drop_down
+            </i>
+        </li>
+        <li><a href="#!">
+                <img src="assets/ic_menu1.svg" alt="">
+                عنوان اول</a>
+        </li>
+        <li><a href="#!" class="active">
+                <img src="assets/ic_menu2_active.svg" alt="">
+                عنوان ثاني</a>
+        </li>
+        <li><a href="#!">
+                <img src="assets/ic_menu3.svg" alt="">
+                عنوان ثالث</a>
+        </li>
+        <li><a href="#!">
+                <img src="assets/ic_menu4.svg" alt="">
+                عنوان رابع</a>
+        </li>
+
+    </ul>
+
+
+    <main>
+
+        <div class="mobile-header">
+            <div class="menu">
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><img src="assets/ic_menu.svg" alt=""></a>
+
+            </div>
+            <div class="logo">
+                <img src="assets/logo.png" alt="logo">
+
+            </div>
+            <div class="notifications">
+                <a href="#">
+                    <img src="assets/ic_alert.svg" alt="">
+                    <span class="counter">5</span>
+                </a>
+            </div>
+        </div>
+        <img class="top-strap" src="assets/strap color.svg" alt="">
+
+        <header>
+            <div class="title">
+                <h1>عنوان ما</h1>
+            </div>
+            <div class="top-header">
+
+                <div class="lang-switch">
+                    <a class='dropdown-trigger' href='#' data-target='dropdown1'>العربية <img
+                            src="assets/ic_down_arrow.svg" alt=""></a>
+
+                    <ul id='dropdown1' class='dropdown-content'>
+                        <li><a href="#!">العربية</a></li>
+                        <li><a href="#!">English</a></li>
+                    </ul>
+                </div>
+
+                <div class="search-field">
+                    <div class="input-field">
+                        <input id="search" type="text" class="validate">
+                        <label for="search">بحث</label>
+                    </div>
+                    <a class="btn-floating waves-effect waves-light white"><i
+                            class="material-icons text-primary">search</i></a>
+                </div>
+
+
+                <div class="notifications">
+                    <a href="#">
+                        <img src="assets/ic_alert.svg" alt="">
+                        <span class="counter">5</span>
+                    </a>
+                </div>
+
+            </div>
+        </header>
+
+        <section class="filters mb40">
+            <div class="main-row">
+                <div class="row-options">
+                    <div class="search mr10 ml10">
+                        <h6>العنوان</h6>
+                        <input class="input" id="search-filter" placeholder="عنوان ما" type="text" class="validate">
+                    </div>
+                    <div class="drop mr10 ml10">
+                        <h6>كلمة</h6>
+                        <select>
+                            <option value="" disabled selected>قائمة منسدله</option>
+                            <option value="1">آختيار ١</option>
+                            <option value="2">آختيار ٢</option>
+                            <option value="3">آختيار ٣</option>
+                        </select>
+                    </div>
+                    <div class="date mr10 ml10">
+                        <h6>يبدأ في</h6>
+                        <input type="text" class="datepicker input">
+                        <img class="date-icon" src="assets/date.svg" alt="">
+                    </div>
+                    <div class="date mr10 ml10">
+                        <h6>ينتهي في</h6>
+                        <input type="text" class="datepicker input">
+                        <img class="date-icon" src="assets/date.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="save">
+                    <a class="waves-effect waves-light btn-large">حفظ</a>
+                    <a class="close" href="#"><img src="assets/ic_cancel.svg" alt=""></a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="tabs-content">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab"><a class="active" href="#test1">تبويب ١</a></li>
+                        <li class="tab"><a href="#">تبويب ٢</a></li>
+                        <li class="tab"><a href="#">تبويب ٣</a></li>
+                        <li class="tab"><a href="#">تبويب ٤</a></li>
+                        <li class="tab"><a href="#">تبويب ٥</a></li>
+                    </ul>
+                </div>
+                <div id="test1" class="col s12">
+                    <div class="content z-depth-1">
+                        <div class="numbers">
+                            <ul>
+                                <li class="current">1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                                <li>6</li>
+                                <li>7</li>
+                                <li>8</li>
+                                <li>9</li>
+                                <li>10</li>
+                                <li>11</li>
+                                <li>12</li>
+                                <li>13</li>
+                                <li>14</li>
+                                <li>15</li>
+                                <li>16</li>
+                                <li>17</li>
+                                <li>18</li>
+                                <li>19</li>
+                                <li>20</li>
+                                <li>21</li>
+                                <li>22</li>
+                                <li>23</li>
+                                <li>24</li>
+                                <li>25</li>
+                                <li>26</li>
+                                <li>27</li>
+                                <li>28</li>
+                            </ul>
+                        </div>
+
+                        <div class="table-content">
+                            <!-- Single Row -->
+                            <div class="content-row">
+                                <div class="title">
+                                    <h3>عنوان ما اكثر من ٨ كلمات في وصف الحالة</h3>
+                                </div>
+                                <div class="options">
+                                    <div class="filters mr10 ml10">
+                                        <div class="date">
+                                            <input type="text" class="datepicker input">
+                                            <img class="date-icon" src="assets/ic_down_arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="filters mr10 ml10">
+                                        <select>
+                                            <option value="" disabled selected>قائمة منسدله</option>
+                                            <option value="1">آختيار ١</option>
+                                            <option value="2">آختيار ٢</option>
+                                            <option value="3">آختيار ٣</option>
+                                        </select>
+                                    </div>
+                                    <a href="#">تفاصيل</a>
+                                    <div class="switch">
+                                        <label>
+                                            <input type="checkbox" checked="checked">
+                                            <span class="lever"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Row -->
+                            <div class="content-row">
+                                <div class="title">
+                                    <h3>عنوان ما اكثر من ٨ كلمات في وصف الحالة</h3>
+                                </div>
+                                <div class="options">
+                                    <div class="filters mr10 ml10">
+                                        <div class="date">
+                                            <input type="text" class="datepicker input">
+                                            <img class="date-icon" src="assets/ic_down_arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="filters mr10 ml10">
+                                        <select>
+                                            <option value="" disabled selected>قائمة منسدله</option>
+                                            <option value="1">آختيار ١</option>
+                                            <option value="2">آختيار ٢</option>
+                                            <option value="3">آختيار ٣</option>
+                                        </select>
+                                    </div>
+                                    <a href="#">تفاصيل</a>
+                                    <div class="switch">
+                                        <label>
+                                            <input type="checkbox" checked="checked">
+                                            <span class="lever"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Row -->
+                            <div class="content-row">
+                                <div class="title">
+                                    <h3>عنوان ما اكثر من ٨ كلمات في وصف الحالة</h3>
+                                </div>
+                                <div class="options">
+                                    <div class="filters mr10 ml10">
+                                        <div class="date">
+                                            <input type="text" class="datepicker input">
+                                            <img class="date-icon" src="assets/ic_down_arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="filters mr10 ml10">
+                                        <select>
+                                            <option value="" disabled selected>قائمة منسدله</option>
+                                            <option value="1">آختيار ١</option>
+                                            <option value="2">آختيار ٢</option>
+                                            <option value="3">آختيار ٣</option>
+                                        </select>
+                                    </div>
+                                    <a href="#">تفاصيل</a>
+                                    <div class="switch">
+                                        <label>
+                                            <input type="checkbox" checked="checked">
+                                            <span class="lever"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Row -->
+                            <div class="content-row inactive">
+                                <div class="title">
+                                    <h3>عنوان ما اكثر من ٨ كلمات في وصف الحالة</h3>
+                                </div>
+                                <div class="options">
+                                    <div class="filters mr10 ml10">
+                                        <div class="date">
+                                            <input type="text" class="datepicker input">
+                                            <img class="date-icon" src="assets/ic_down_arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="filters mr10 ml10">
+                                        <select>
+                                            <option value="" disabled selected>قائمة منسدله</option>
+                                            <option value="1">آختيار ١</option>
+                                            <option value="2">آختيار ٢</option>
+                                            <option value="3">آختيار ٣</option>
+                                        </select>
+                                    </div>
+                                    <a href="#">تفاصيل</a>
+                                    <div class="switch">
+                                        <label>
+                                            <input type="checkbox">
+                                            <span class="lever"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Row -->
+                            <div class="content-row">
+                                <div class="title">
+                                    <h3>عنوان ما اكثر من ٨ كلمات في وصف الحالة</h3>
+                                </div>
+                                <div class="options">
+                                    <div class="filters mr10 ml10">
+                                        <div class="date">
+                                            <input type="text" class="datepicker input">
+                                            <img class="date-icon" src="assets/ic_down_arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="filters mr10 ml10">
+                                        <select>
+                                            <option value="" disabled selected>قائمة منسدله</option>
+                                            <option value="1">آختيار ١</option>
+                                            <option value="2">آختيار ٢</option>
+                                            <option value="3">آختيار ٣</option>
+                                        </select>
+                                    </div>
+                                    <a href="#">تفاصيل</a>
+                                    <div class="switch">
+                                        <label>
+                                            <input type="checkbox" checked="checked">
+                                            <span class="lever"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Row -->
+                            <div class="content-row">
+                                <div class="title">
+                                    <h3>عنوان ما اكثر من ٨ كلمات في وصف الحالة</h3>
+                                </div>
+                                <div class="options">
+                                    <div class="filters mr10 ml10">
+                                        <div class="date">
+                                            <input type="text" class="datepicker input">
+                                            <img class="date-icon" src="assets/ic_down_arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="filters mr10 ml10">
+                                        <select>
+                                            <option value="" disabled selected>قائمة منسدله</option>
+                                            <option value="1">آختيار ١</option>
+                                            <option value="2">آختيار ٢</option>
+                                            <option value="3">آختيار ٣</option>
+                                        </select>
+                                    </div>
+                                    <a href="#">تفاصيل</a>
+                                    <div class="switch">
+                                        <label>
+                                            <input type="checkbox" checked="checked">
+                                            <span class="lever"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Row -->
+                            <div class="content-row">
+                                <div class="title">
+                                    <h3>عنوان ما اكثر من ٨ كلمات في وصف الحالة</h3>
+                                </div>
+                                <div class="options">
+                                    <div class="filters mr10 ml10">
+                                        <div class="date">
+                                            <input type="text" class="datepicker input">
+                                            <img class="date-icon" src="assets/ic_down_arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="filters mr10 ml10">
+                                        <select>
+                                            <option value="" disabled selected>قائمة منسدله</option>
+                                            <option value="1">آختيار ١</option>
+                                            <option value="2">آختيار ٢</option>
+                                            <option value="3">آختيار ٣</option>
+                                        </select>
+                                    </div>
+                                    <a href="#">تفاصيل</a>
+                                    <div class="switch">
+                                        <label>
+                                            <input type="checkbox" checked="checked">
+                                            <span class="lever"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Row -->
+                            <div class="content-row">
+                                <div class="title">
+                                    <h3>عنوان ما اكثر من ٨ كلمات في وصف الحالة</h3>
+                                </div>
+                                <div class="options">
+                                    <div class="filters mr10 ml10">
+                                        <div class="date">
+                                            <input type="text" class="datepicker input">
+                                            <img class="date-icon" src="assets/ic_down_arrow.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="filters mr10 ml10">
+                                        <select>
+                                            <option value="" disabled selected>قائمة منسدله</option>
+                                            <option value="1">آختيار ١</option>
+                                            <option value="2">آختيار ٢</option>
+                                            <option value="3">آختيار ٣</option>
+                                        </select>
+                                    </div>
+                                    <a href="#">تفاصيل</a>
+                                    <div class="switch">
+                                        <label>
+                                            <input type="checkbox" checked="checked">
+                                            <span class="lever"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
